@@ -1,7 +1,7 @@
 {
   _config+:: {
     // Selectors are inserted between {} in Prometheus queries.
-    cadvisorSelector: 'job="cadvisor"',
+    cadvisorSelector: 'job="kubelet"',
     kubeletSelector: 'job="kubelet"',
     kubeStateMetricsSelector: 'job="kube-state-metrics"',
     nodeExporterSelector: 'job="node-exporter"',
@@ -70,8 +70,8 @@
 
 
     // Opt-in to multiCluster dashboards by overriding this and the clusterLabel.
-    showMultiCluster: false,
-    clusterLabel: 'cluster',
+    showMultiCluster: true,
+    clusterLabel: 'cluster_name',
 
     // This list of filesystem is referenced in various expressions.
     fstypes: ['ext[234]', 'btrfs', 'xfs', 'zfs'],
