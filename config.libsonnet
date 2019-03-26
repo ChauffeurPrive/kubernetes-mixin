@@ -36,6 +36,7 @@
       'nodes.json': 'kcb9C2QDe4IYcjiTOmYyfhsImuzxRcvwWC3YLJPS',
       'pods.json': 'AMK9hS0rSbSz7cKjPHcOtk6CGHFjhSHwhbQ3sedK',
       'statefulset.json': 'dPiBt0FRG5BNYo0XJ4L0Meoc7DWs9eL40c1CRc1g',
+      'deployment.json': 'Yce0yR8wtSwFKgYWrIrS0dCZQMiEimPLFmsdayb7',
       'k8s-resources-windows-cluster.json': '4d08557fd9391b100730f2494bccac68',
       'k8s-resources-windows-namespace.json': '490b402361724ab1d4c45666c1fa9b6f',
       'k8s-resources-windows-pod.json': '40597a704a610e936dc6ed374a7ce023',
