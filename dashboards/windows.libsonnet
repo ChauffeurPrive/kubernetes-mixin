@@ -328,6 +328,7 @@ local g = import 'grafana-builder/grafana.libsonnet';
             datasource='$datasource',
             format='bytes',
             min=0,
+            legend_values=true,
             legend_rightSide=true,
             legend_alignAsTable=true,
             legend_current=true,
